@@ -1,1 +1,18 @@
 /* Other rules */
+.center {
+  margin: 0 auto;
+  display: flex;
+}
+div {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url("https://media.giphy.com/media/l0MYPuZPWUD5vqv9m/giphy.gif");
+  background-size: cover;
+
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
