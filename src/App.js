@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 import Home from "./containers/Home";
 import Characters from "./containers/Characters";
 import Character from "./containers/Character";
+import Comics from "./containers/Comics";
 
 function App({ data, setData }) {
   return (
@@ -21,6 +22,9 @@ function App({ data, setData }) {
           <Route path="/characters/:id">
             {/* apres le offer on dit dans le one post que la parametre de use params c lui qui est dans le lien apres avoir cliquer sur une des cartes */}
             <Character data={data} setData={setData} />
+          </Route>
+          <Route path="/comics">
+            <Comics />
           </Route>
           <Route path="/">
             <Home />
